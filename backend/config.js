@@ -1,0 +1,2 @@
+export const defaults={households:500,solarKw:250,windKw:50,batteryKwh:500,startSoc:74,gridAvailable:true,intermittency:0.25,participation:0.75,tariff:8,peakTariff:12,intervalMinutes:15,hours:24};
+export const loads=[{name:'Health centre',kw:5,priority:1,flex:false},{name:'Telecom & refrigeration',kw:12,priority:1,flex:false},{name:'Street lighting',kw:9,priority:2,flex:false},{name:'Water pumps',kw:28,priority:2,flex:true},{name:'Home cooling',kw:35,priority:3,flex:true},{name:'EV charging',kw:22,priority:4,flex:true},{name:'Washing machines',kw:8,priority:4,flex:true}];
