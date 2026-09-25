@@ -49,6 +49,7 @@ React, Vite, JavaScript, Recharts, Lucide, Node.js and Express. In-memory demo s
 | GET | `/api/battery` | SOC, charge and discharge series |
 | GET | `/api/reliability` | Paired reliability metrics |
 | GET | `/api/economics` | Paired cost and savings summary |
+| GET | `/api/simulation` | Unified current simulation result, metrics, decisions and economics |
 | GET | `/api/scenarios` | Available scenario names |
 | GET | `/api/alerts` | High and critical shortfall intervals |
 | POST | `/api/simulation/run` | Run with JSON config and scenario |
